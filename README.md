@@ -30,6 +30,14 @@ sudo dnf install -y neovim python3-neovim
 ```sh
 sudo emerge app-editors/neovim
 ```
+- NixOS
+```nix
+# Global Configuration
+programs.neovim = {
+   enable = true;
+   defaultEditor = true;
+};
+```
 - OpenSUSE
 ```sh
 sudo zypper in neovim
