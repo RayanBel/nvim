@@ -1,4 +1,4 @@
-require('lazy').setup({
+return {
   'nvim-treesitter/nvim-treesitter',
   lazy = false,
   branch = 'main',
@@ -6,4 +6,4 @@ require('lazy').setup({
   config = function()
      require('nvim-treesitter').install({ 'lua', 'html', 'css', 'javascript', 'typescript', 'angular', 'php', 'java', 'properties', 'dockerfile', 'bash', 'markdown'}) -- Lista de lenguajes de nuestro interes
   end
-})
+}
