@@ -166,15 +166,15 @@ Así que vamos a lo seguro y usar `nvim-treesitter`.
 
 Para instalarlo es en la carpeta `plugins` añadimos un archivo que contenga esto.
 ```lua
-require('lazy').setup({
+return {
   'nvim-treesitter/nvim-treesitter',
   lazy = false,
   branch = 'main',
   build = ':TSUpdate',
   config = function()
-     require('nvim-treesitter').install({ 'lua', 'html', 'css', 'javascript', 'typescript', 'angular', 'php', 'java', 'properties', 'dockerfile', 'bash'}) -- Lista de lenguajes de nuestro interes
+     require('nvim-treesitter').install({ 'lua', 'html', 'css', 'javascript', 'typescript', 'angular', 'php', 'java', 'properties', 'dockerfile', 'bash', 'markdown'}) -- Lista de lenguajes de nuestro interes
   end
-})
+}
 ```
 Una extensión dependiente de esto sería la siguiente, `nvim-autopairs`. ¿Qué hace? Cierra automaticamente los simbolos que tienen parejas,
 como sería el caso de los parentesis, llaves, comillas, corchetes, entre tantos otros. De paso, identa automaticamente. Se instala como siempre
