@@ -220,9 +220,13 @@ Recordad revisar los atajos de teclado que trae lspconfig por defecto. Sino tamb
 
 ## Plugins
 [Lazy.nvim](https://lazy.folke.io/)  
-[Dotfyle](https://dotfyle.com/)
+[Dotfyle](https://dotfyle.com/)  
 [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim)  
 [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter/tree/main)  
 [blink.cmp](https://cmp.saghen.dev/)  
 [nvim-autopairs](https://github.com/windwp/nvim-autopairs)  
 [Comment.nvim](https://github.com/numToStr/Comment.nvim)  
+[Lualine]()  
+[Neo-tree]()  
+[render-markdown]()  
+[Telescope]()  
